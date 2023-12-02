@@ -5,6 +5,7 @@ import Counter from "~/components/starter/counter/counter";
 import Hero from "~/components/starter/hero/hero";
 import Infobox from "~/components/starter/infobox/infobox";
 import Starter from "~/components/starter/next-steps/next-steps";
+import {Link} from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
@@ -58,8 +59,8 @@ export default component$(() => {
               Example Apps
             </div>
             <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{" "}
-              <a href="/demo/todolist">Todo App</a>.
+              Have a look at the <Link href="/demo/flower">Flower App</Link> or the{" "}
+              <Link href="/demo/todolist">Todo App</Link>.
             </p>
           </Infobox>
 
