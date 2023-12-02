@@ -20,7 +20,7 @@
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
-    "build-serve": "qwik build preview",
+    "build-serve": "pnpm build && qwik build preview",
     "serve": "vite preview --open",
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
